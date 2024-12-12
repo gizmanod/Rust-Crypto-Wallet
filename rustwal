@@ -1,0 +1,12 @@
+### Files
+- **`wallet.rs`**
+  ```rust
+  fn main() {
+      println!("Welcome to the Rust Crypto Wallet");
+      println!("Generating a new wallet...");
+      let private_key = "0x123...abc";
+      let public_key = "0x456...def";
+      println!("Private Key: {}", private_key);
+      println!("Public Key: {}", public_key);
+  }
+  
